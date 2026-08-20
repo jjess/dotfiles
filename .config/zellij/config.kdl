@@ -1,0 +1,10 @@
+// ***********************
+// m3-next-analitics-aut
+// ***********************
+//copy_command "osc52"
+//copy_on_select false
+copy_on_select true
+plugins {
+    clipboard
+}
+
