@@ -44,4 +44,10 @@ XTerm*pointerShape: left_ptr
 XTerm*pointerMode: 1
 
 ! prueba OSC52
+XTerm*allowWindowOps: false
 XTerm*disallowedWindowOps: 20,21,SetXprop
+XTerm*selectToClipboard: true
+
+XTerm*VT100.Translations: #override \
+    Shift Ctrl <Key>C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key>V: insert-selection(CLIPBOARD)
